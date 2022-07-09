@@ -31,6 +31,11 @@
 
 /* <!-- vkrupitsyn --> */
 
+.lazy .slick-prev::before,
+.lazy .slick-next::before {
+  color: red;
+}
+
 /* <!-- Olexii-US --> */
 
 /* <!-- Taras3482 --> */

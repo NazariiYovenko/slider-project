@@ -24,6 +24,17 @@
 }
 
 /* <!-- brobeliy --> */
+.anton-fade {
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-ant { 
+  display: block;
+  margin: 0 auto;
+}
 
 /* <!-- YanaUSA --> */
 

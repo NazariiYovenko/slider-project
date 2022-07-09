@@ -5,12 +5,12 @@
 }
 
 .slick-prev:before {
-  content: "←";
+  content: '←';
   color: red;
 }
 
 .slick-next:before {
-  content: "→";
+  content: '→';
   color: red;
 }
 
@@ -53,12 +53,92 @@
 
 /* <!-- vkrupitsyn --> */
 
+.lazy {
+  display: flex;
+  justify-content: center;
+}
+
 .lazy .slick-prev::before,
 .lazy .slick-next::before {
   color: red;
 }
 
+.slick-slide img {
+  margin: 0 auto;
+}
+
+.my-dots {
+  position: absolute;
+  bottom: -45px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.my-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.my-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+.my-dots li button:hover,
+.my-dots li button:focus {
+  outline: none;
+}
+
+.my-dots li button:hover:before,
+.my-dots li button:focus:before {
+  opacity: 1;
+}
+
+.my-dots li button:before {
+  font-family: "slick";
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: url("https://upload.wikimedia.org/wikipedia/commons/b/b7/Rule_Segment_-_Circle_open_-_20px.svg");
+  text-align: center;
+  opacity: 0.25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.my-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: black;
+}
+
 /* <!-- Olexii-US --> */
+.center {
+  border: 2px solid blue;
+
+}
+
 
 /* <!-- Taras3482 --> */
 
@@ -73,7 +153,38 @@
 /* <!-- dariahalai --> */
 
 /* <!-- IrynaLeman --> */
-
+.slider__img {
+  display: block;
+  padding: 10px;
+  border: 2px dashed teal;
+  border-radius: 6px;
+  margin: 5px;
+}
 /* <!-- ABarchuk1976 --> */
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  padding: 60px 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.responsive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 380px;
+}
+
+.responsive-item {
+  display: block;
+  width: 380px;
+  height: auto;
+  margin-bottom: 30px;
+}
 
 /* <!-- Work area --> */

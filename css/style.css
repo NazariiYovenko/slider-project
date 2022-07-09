@@ -36,7 +36,12 @@
 /* <!-- dariahalai --> */
 
 /* <!-- IrynaLeman --> */
-
+.slider__img {
+  display: block;
+  padding: 10px;
+  border: 2px dashed teal;
+  border-radius: 6px;
+}
 /* <!-- ABarchuk1976 --> */
 
 /* <!-- Work area --> */

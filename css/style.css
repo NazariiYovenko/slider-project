@@ -14,6 +14,7 @@
   color: red;
 }
 
+
 /* <!-- Work area --> */
 
 /* <!-- SerjKenri --> */
@@ -165,6 +166,15 @@
 /* <!-- ilona1009 --> */
 
 /* <!-- dariahalai --> */
+.daria .slick-prev:before {
+  content: "←";
+  color: navy;
+}
+
+.daria .slick-next:before {
+  content: "→";
+  color: violet;
+}
 
 /* <!-- IrynaLeman --> */
 .slider__img {

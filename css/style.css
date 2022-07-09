@@ -5,12 +5,12 @@
 }
 
 .slick-prev:before {
-  content: "←";
+  content: '←';
   color: red;
 }
 
 .slick-next:before {
-  content: "→";
+  content: '→';
   color: red;
 }
 
@@ -45,4 +45,28 @@
 
 /* <!-- ABarchuk1976 --> */
 
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  padding: 60px 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.responsive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 380px;
+}
+
+.responsive-item {
+  display: block;
+  width: 380px;
+  height: auto;
+  margin-bottom: 30px;
+}
 /* <!-- Work area --> */

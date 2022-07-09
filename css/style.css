@@ -1,4 +1,10 @@
 .slider {
   width: 1000px;
   margin: 0 auto;
+  margin-bottom: 90px;
+}
+
+.serhii-img {
+  width: 220px;
+  height: 120px;
 }

@@ -1,6 +1,7 @@
 .slider {
   width: 1000px;
   margin: 0 auto;
+  margin-bottom: 90px;
 }
 
 .slick-prev:before {
@@ -16,6 +17,11 @@
 /* <!-- Work area --> */
 
 /* <!-- SerjKenri --> */
+
+.serhii-img {
+  width: 220px;
+  height: 120px;
+}
 
 /* <!-- brobeliy --> */
 

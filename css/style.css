@@ -4,7 +4,45 @@
   margin-bottom: 90px;
 }
 
+.slick-prev:before {
+  content: "←";
+  color: red;
+}
+
+.slick-next:before {
+  content: "→";
+  color: red;
+}
+
+/* <!-- Work area --> */
+
+/* <!-- SerjKenri --> */
+
 .serhii-img {
   width: 220px;
   height: 120px;
 }
+
+/* <!-- brobeliy --> */
+
+/* <!-- YanaUSA --> */
+
+/* <!-- OHrechanyk --> */
+
+/* <!-- vkrupitsyn --> */
+
+/* <!-- Olexii-US --> */
+
+/* <!-- Taras3482 --> */
+
+/* <!-- volopn@gmail.com --> */
+
+/* <!-- ilona1009 --> */
+
+/* <!-- dariahalai --> */
+
+/* <!-- IrynaLeman --> */
+
+/* <!-- ABarchuk1976 --> */
+
+/* <!-- Work area --> */

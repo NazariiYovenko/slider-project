@@ -4,7 +4,7 @@ $(document).ready(function () {
     dotsClass: "my-dots",
   });
 
-  $(".lazy").slick({
+  $(".slider-vlad").slick({
     lazyLoad: "ondemand",
     slidesToShow: 3,
     slidesToScroll: 1,

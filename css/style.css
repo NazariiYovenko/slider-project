@@ -1,6 +1,57 @@
 .slider {
   width: 1000px;
   margin: 0 auto;
+  margin-bottom: 90px;
 }
 
+.slick-prev:before {
+  content: "←";
+  color: red;
+}
 
+.slick-next:before {
+  content: "→";
+  color: red;
+}
+
+/* <!-- Work area --> */
+
+/* <!-- SerjKenri --> */
+
+.serhii-img {
+  width: 220px;
+  height: 120px;
+}
+
+/* <!-- brobeliy --> */
+
+/* <!-- YanaUSA --> */
+
+/* <!-- OHrechanyk --> */
+
+/* <!-- vkrupitsyn --> */
+
+.lazy .slick-prev::before,
+.lazy .slick-next::before {
+  color: red;
+}
+
+/* <!-- Olexii-US --> */
+
+/* <!-- Taras3482 --> */
+
+/* <!-- volopn@gmail.com --> */
+.vova-image{
+    width: 100%;
+
+}
+
+/* <!-- ilona1009 --> */
+
+/* <!-- dariahalai --> */
+
+/* <!-- IrynaLeman --> */
+
+/* <!-- ABarchuk1976 --> */
+
+/* <!-- Work area --> */

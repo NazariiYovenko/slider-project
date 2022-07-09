@@ -20,6 +20,19 @@
 /* <!-- brobeliy --> */
 
 /* <!-- YanaUSA --> */
+.variable-width {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dotted teal;
+ 
+}
+.img-width {
+  display: inline-block;
+  align-items: center;
+  width: 500px;
+  border-radius: 5px;
+}
 
 /* <!-- OHrechanyk --> */
 

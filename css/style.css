@@ -2,3 +2,8 @@
   width: 1000px;
   margin: 0 auto;
 }
+
+.lazy .slick-prev::before,
+.lazy .slick-next::before {
+  color: red;
+}
